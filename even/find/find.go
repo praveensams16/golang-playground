@@ -1,7 +1,7 @@
 package find
 
 type Sam struct {
-	j int 
+	J int 
 }
 
 func Odd(a int) bool {
@@ -13,6 +13,6 @@ func Odd(a int) bool {
 }
 
 func (d *Sam)Add(a, b int) int {
-	d.j=a + b + d.j
-	return d.j
+	d.J=a + b + d.J
+	return d.J
 }

@@ -6,8 +6,7 @@ import (
 )
 
 func main() {
-	d:=find.Sam{}
-	
+	d:=find.Sam{J:300}
 	for i:=0;i<100;i++ {
 		if find.Odd(i) {
 			fmt.Println("even number",i)
